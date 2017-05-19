@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "rootDir": "App",
+    "outDir": "../js",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors":true
+  },
+  "compileOnSave": true,
+  "angularCompilerOptions": {
+    "genDir": ".",
+    "debug": true
+  },
+  "exclude": [
+    "../../node_modules"
+  ],
+  "lib": [
+    "es2015",
+    "dom"
+  ]
+}
